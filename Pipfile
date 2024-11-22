@@ -1,0 +1,37 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+# Data in excel handling
+pandas = "*"
+numpy = "*"
+openpyxl = "*"
+xlsxwriter = "*"
+# selenium dependency
+selenium = "*"
+webdriver-manager = "*"
+bs4 = "*"
+# console log dependency
+coloredlogs = "*"
+# python package dependency
+pyinstaller = "*"
+# pdf parser
+PyPDF2 = "*"
+# image parser
+opencv-python = "*"
+ghostscript = "*"
+# python gui dependency
+PySimpleGUI = "*"
+Jinja2 = "*"
+Pillow = "*"
+auto-py-to-exe = "*"
+python-dateutil = "*"
+requests = "*"
+pywin32 = "*"
+selenium-stealth = "*"
+[dev-packages]
+
+[requires]
+python_version = "3.9"
